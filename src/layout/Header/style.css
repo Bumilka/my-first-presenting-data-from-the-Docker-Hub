@@ -1,0 +1,29 @@
+.bodyNav{
+    background: rgba(100, 96, 96, 0.411);
+    color: white;
+    height: 50px;   
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.subpage{
+    text-decoration: none;
+    color: rgb(228, 30, 30);
+    font-weight: 500;
+    text-decoration: underline overline;
+}
+li{
+    list-style-type:none;
+    padding-left: 40px;
+}

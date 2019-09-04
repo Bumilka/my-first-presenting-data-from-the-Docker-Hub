@@ -1,0 +1,17 @@
+.bodyFooter{
+    background: rgba(100, 96, 96, 0.411);
+    color: white;
+    margin-top: 25px;
+    padding-right: 50px;
+    padding-left: 50px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+a{
+        text-decoration: none;
+        color: rgb(228, 30, 30);
+        font-weight: 500;
+}
