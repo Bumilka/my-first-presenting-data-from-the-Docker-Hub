@@ -8,14 +8,14 @@ import App from './App';
 import * as serviceWorker from './serviceWorker';
 
 const initialState = {
-    authorsListSelected: [],
-    statisticsTable: false,
+    selectAuthorsList: [],
+    statisticsTable: null,
 }
 
 const reducer = (state = initialState, action) => {
     switch (action.type) {
-        case 'SELECT_AUTHORS_LIST':
-            return state = { ...state, statisticsTable: !state.statisticsTable, authorsListSelected: action.authorsListSelected};
+        case 'STATE_STATS':
+            return state = { ...state, selectAuthorsList: action.selectAuthorsList, statisticsTable: action.statisticsTable};
         default:
             return state;
     }
